@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>JNC Bank</title>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top" id="navbar">
+        <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/JNC_Logo.svg/1280px-JNC_Logo.svg.png" width="50" height="30" class="d-inline-block align-top" alt="">   
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">PERSONAL</a>
+            </li>
+        
+            <li class="nav-item">
+                <a class="nav-link" href="#">BUSINESS</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">TECHNOLOGY</a>
+                </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>MAKE AN ACCOUNT</b></a>
+            </li>
+            </ul>
+           
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+    <img src="https://i.pinimg.com/originals/66/e4/ee/66e4eea36fd3d5e3d4c8d4cc42d5da2b.jpg" class="img-fluid" alt="Responsive image" id="mainheaderimage">
+    
+    <!--Form-->
+    <div id="form-div">
+    <form autocomplete="off">
+        <h2>Sign in to Online Banking</h2>
+        <div class="form-group">
+            <label for="InputEmail1">Email address</label>
+            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" autocomplete="false">
+        </div>
+        <div class="form-group">
+            <label for="InputEmail2">Password</label>
+            <input type="password" class="form-control" id="InputPassword1" aria-describedby="emailHelp">
+        </div>
+        <small id="emailHelp" class="form-text text-muted" onclick="alert('Reset Password Steps sent to Email on File')">Forgot your Password</small>
+        <br>
+        <button type="button" class="btn btn-primary btn-lg" onclick="minigame1()">Sign In</button>
+
+    </form>
+    </div>
+
+    <div class="container-fluid" id="welcomecontainer">
+    <div class="row">
+    <div class="col-md-6">
+        <h1>Welcome to JNC Financial</h3>
+        <h2>A Bank that Cares About You and More About Us!</h2>
+        <br>
+        <br>
+        <p>As a locally-based company, we’ve built a bank account that supports the people who live here and offers great benefits.
+            <br>
+            <br>
+            <br>
+           
+            Every ATM you see is 500 dollars! We’ll refund any ATM fee nationwide only if you contact Technical Support
+            <br>
+            <br>
+            <br>
+           
+            No monthly maximum balance and no monthly maintenance fees, just a standard cost of $299 every 2 weeks!
+            <br>
+            <br>
+            <br>
+            Only $10,000 required to open
+            </p>
+    </div>
+    <div class="col-md-6" style="text-align: right;">
+        <a href="#" ><img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/k-s31-dsc1554947-1-l_1.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=65&usm=15&vib=3&w=600&s=8a56391676d7e40b56c19990517e555a" alt="ccs_logo" /></a>
+    </div>
+    </div>
+    </div>
+    
+    <div class="container-fluid" id="promotioncont">
+        <h3 style="margin-bottom: 20px;">Open a new Total Access Checking account now and get a $300 bonus when you:</h3>
+        <br>
+        <div class="row" id="promotiondiv">
+            <div class="col-sm">
+                Enroll in online banking
+            </div>
+            <div class="col-sm">
+                Activate e-statements through bank’s website
+            </div>
+            <div class="col-sm">
+                Have at least monthly occurring direct deposits totaling $500 or more each month for the qualification period
+            </div>
+            <br>
+            
+           
+          </div>
+          <br>
+          <br>
+          <br>
+          <h6>This special offer is ONLY available on this webpage. Offer Available in majority of <a href="https://www.youtube.com/watch?v=5rEsx-gOU34">countries</a>. Not available in India.</h6>
+          <br>
+          <button type="button" class="btn btn-primary btn-lg">Create Account</button>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          
+          <h7 id="h7number1">
+              1. General Information. This Total Access Checking account bonus offer is valid for new accounts opened April 1, 2020 through December 31, 2020. This Total Access Checking account bonus offer is not available to existing or closed checking account customers of JNC Financial Corporation (‘JNCFC’) and its subsidiaries or its active employees. Limit 1 bonus payment per customer, regardless of the number of accounts opened. If you qualify for this Total Access Checking account bonus offer, you are ineligible to receive this Total Access Checking account bonus offer from any other JNCFC location. If you qualify for any other JNCFC savings offer it may be combined with this Total Access Checking account bonus offer. Your new account must be open, in the same product, and have a balance greater than zero to receive the bonus payment. Balance is determined as of the end of each Business Day as the funds currently in your account including deposits and withdrawals made in the Business Day. The $300.00 bonus payment is subject to IRS 1099-INT reporting and may be considered income for tax purposes for the tax year in which the bonus was paid. 2. ATM Fees. There is no WTFC transaction charge at any ATM in the Allpoint, MoneyPass, or Sum surcharge free networks. Other banks outside the network may impose ATM surcharges at their machines. Surcharge fees assessed by owners of other ATMs outside the network will be reimbursed. Reimbursement does not include the 1.10% International Service fee charged for certain foreign transactions conducted outside the continental United States. 3. Account Benefits. Online banking is required to access mobile banking, remote deposit capture, and Zelle. Internet/mobile connectivity is required. Deposits made through mobile banking or remote deposit capture are subject to deposit limits and funds are typically available by next business day. Deposit limits may change at any time. Third-party message and data rates may apply. Other restrictions apply. For more information go to: wintrust.com/agreement-and-disclosure. 4. Zelle. Zelle is intended for sending money to family, friends and people you know. Must be 13 years of age and have a bank account in the U.S. to use Zelle through the .communityMobile banking app. Transactions typically occur in minutes when the recipient’s email address or U.S. mobile number is already enrolled with Zelle. Dollar and frequency limits apply. Zelle and the Zelle related marks are wholly owned by Early Warning Services, LLC and are used herein under license. 5. Bonus Qualifications. (i) Open a new Total Access Checking account; (ii) tell us you are aware of this Total Access Checking account bonus offer at account opening; (iii) have at least monthly occurring direct deposits totaling $500.00 or more each month made to your new account for 2 consecutive calendar months after the calendar month your new account was opened (‘Qualification Period’). For example, if you open your new account in January, you would need to have “Direct Deposits” made to your new account in February totaling $500 or more and in March totaling $500 or more; and (iv) enroll in online banking and activate e-statements within the Qualification Period. A direct deposit is defined as any payment made by a government agency, employer, or other third-party organization that is made via an electronic deposit. A direct deposit does not include teller/ATM/mobile or remote deposits, wire transfers, online banking/telephone transfers between accounts at WTFC, external transfers from other accounts at other financial institutions or ATM/debit card transfers and deposits. After you have completed all the above bonus qualifications, we will deposit the bonus payment into your new account within 30 calendar days after the Qualification Period. A listing of WTFC locations can be found here: www.jnc.com/locations.
+          </h7>
+
+    </div>
+
+    
+</div>
+    
+
+
+
+
+
+
+    <script src="/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+</body>
+</html>

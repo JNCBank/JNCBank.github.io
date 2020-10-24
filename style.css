@@ -1,0 +1,107 @@
+html,
+body,
+#intro {
+    height: 100%;
+}
+
+body {
+    background: #fcfcfc;
+}
+#intro {
+    background: url("https://i.pinimg.com/originals/66/e4/ee/66e4eea36fd3d5e3d4c8d4cc42d5da2b.jpg")
+}
+
+.img-fluid {
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    max-height: 800px;
+    margin-bottom: 1rem;
+}
+
+.container-fluid{
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+
+}
+
+#form-div {
+
+    position: absolute;
+    margin-left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#promotioncont {
+    text-align: center;
+    padding: 50px;
+    background: #f2f2f2;
+   
+}
+
+#welcomecontainer {
+    height: 25vw;
+    padding: 25px;
+ 
+    
+    
+}
+
+#navbar2 {
+    z-index: 20;
+}
+
+.bankingdiv {
+    padding: 25px;
+    padding-bottom: 60px;
+}
+
+#containertransfer {
+    position: relative;
+    height: 85vh;
+  
+
+    
+}
+
+#transferdiv {  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ededed;
+  padding: 40px;
+  border-radius: 25px;
+
+}
+
+
+.dropdown-toggle {
+    margin: 30px;
+}
+
+#clearOverlay {
+  opacity:    0; 
+  background: #000; 
+  width:      100%;
+  height:     100%; 
+  z-index:    5;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+
+#Transferinput {
+    border: none;
+    background: none;
+    font-size: 40px;
+    outline: none;
+    text-align: center;
+    width: 100%;
+}
