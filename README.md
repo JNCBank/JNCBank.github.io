@@ -6,5 +6,5 @@ Hello, this is a bank to troll scammers that want to peer inside your bank accou
 - Wrong Password 3 times before entering
 - Overlay to block scammers from using inspect element (remove if you dont like)
 - Home, Transfer, and Bank Account Pages (More features coming later)
-and more to come!
+
 
