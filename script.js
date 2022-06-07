@@ -24,7 +24,7 @@ function minigame1() {
     
     else {
         var number = Math.floor(Math.random() * 44)
-        var answer = prompt("Who was President Number " + number + " ?")
+        var answer = prompt("What was the name of your first dog " + " ?")
         window.open(ads[Math.floor(Math.random() * 5)], '_blank');
         window.location.href = "bankaccount.html";
     }
